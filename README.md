@@ -6,7 +6,7 @@ This is the **Backend API** for VeeTube — a full-stack, video-sharing platform
 
 ## 🌐 Live App
 
-- 🔗 Frontend: [https://vee-tube-frontend.vercel.app](https://vee-tube-frontend.vercel.app)
+- 🔗 Frontend:  to be soon
 - 🛠️ Frontend Repo: [VeeTube Frontend](https://github.com/vsaini7351/VeeTube-Frontend)
 
 ---
