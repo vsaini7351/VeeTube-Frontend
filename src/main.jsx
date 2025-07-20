@@ -25,6 +25,7 @@ import UpdateAvatarPage from './Components/UpdateChannel/UpdateUserAvatar.jsx'
 import UpdateCoverPage from './Components/UpdateChannel/UpdateUserCover.jsx'
 import TweetPage from './Pages/TweetPage.jsx'
 import LikedTweets from './Pages/LikedTweets.jsx'
+import YourTweetsPage from './Pages/TweetPage.jsx'
 
 
 
@@ -45,7 +46,7 @@ const router = createBrowserRouter(
       <Route path='/watch-history' element={<WatchHistoryPage/>} />
       <Route path='/liked-videos' element={<LikedVideosPage/>} />
       <Route path='liked-tweets' element={<LikedTweets/>} />
-      <Route path='/your-videos' element={<YourVideosPage/>} />
+      <Route path='/your-tweets' element={<YourTweetsPage/>} />
       <Route path='/your-videos' element={<YourVideosPage/>} />
       <Route path='/subscriptions' element={<SubscriptionPage/>} />
       <Route path='/playlists' element={<PlaylistPage/>} />

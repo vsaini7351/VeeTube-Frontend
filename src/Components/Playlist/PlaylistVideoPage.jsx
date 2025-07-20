@@ -14,7 +14,8 @@ export default function PlaylistVideoPage() {
   const fetchPlaylist = async () => {
     try {
       const res = await axios.get(`/playlist/${playlistId}`);
-      setPlaylist(res.data.data.playlist);
+      console.log(res)
+      setPlaylist(res.data.data);
     } catch {
       toast.error("Failed to load playlist");
     } finally {

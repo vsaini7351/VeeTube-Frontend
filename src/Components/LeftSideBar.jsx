@@ -56,6 +56,7 @@ export default function Sidebar({ isOpen, onClose }) {
                 <p onClick={()=> navigate('/')} className="cursor-pointer text-lg hover:text-purple-600">Home</p>
                 <p onClick={()=> handleClick('/subscriptions')} className="cursor-pointer text-lg hover:text-purple-600">Subscription</p>
                 <p onClick={()=> handleClick('/your-videos')} className="cursor-pointer text-lg hover:text-purple-600">Your Videos</p>
+                <p onClick={()=> handleClick('/your-tweets')} className="cursor-pointer text-lg hover:text-purple-600">Your Tweets</p>
 
                 <hr className="border-gray-600" />
 

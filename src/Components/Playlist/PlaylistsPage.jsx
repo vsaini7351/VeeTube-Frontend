@@ -110,7 +110,7 @@ export default function PlaylistPage() {
                         >
                             {/* Thumbnail placeholder or you can add actual images */}
                             <div
-                                className="h-40 w-full bg-gradient-to-br from-purple-700 to-purple-900 rounded-t-lg flex items-center justify-center text-white text-2xl font-bold tracking-wide"
+                                className="cursor-pointer h-40 w-full bg-gradient-to-br from-purple-700 to-purple-900 rounded-t-lg flex items-center justify-center text-white text-2xl font-bold tracking-wide"
                                 onClick={() => navigate(`/playlist/${playlist._id}`)}
                             >{playlist.name?.slice(0, 1).toUpperCase()} </div>
 
