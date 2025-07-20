@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #0f0f1f;
+}
+.font-nunito{
+  font-family: 'Nunito', sans-serif !important;
+}
+.font-audiowide {
+  font-family: 'Audiowide', cursive !important;
+}
+
+@keyframes borderMove {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes slideUpDown {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-1rem);
+    opacity: 0.6;
+  }
+}
+
+button {
+  cursor: pointer;
+  position: relative; /* needed for ripple positioning */
+  overflow: hidden;   /* ensures ripple stays inside */
+}
+
+
+.neon-border {
+  background: linear-gradient(145deg, #a855f7, #9333ea);
+  padding: 2px;
+  border-radius: 1rem;
+  box-shadow:
+    0 0 10px #a855f7,
+    0 0 20px #9333ea,
+    0 0 30px #7e22ce;
+}
+
+
+
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #a855f7, 0 0 10px #a855f7;
+  border-color: #a855f7;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
